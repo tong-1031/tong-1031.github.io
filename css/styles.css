@@ -11076,7 +11076,7 @@ body {
             rgba(255, 179, 71, 0.6) 50%,
             #ff9f43 100%
     ),
-    url("../assets/img/背景1.png");
+    url("../assets/img/背景3.png");
 
     background-position: center;
     background-repeat: no-repeat;
@@ -11123,9 +11123,8 @@ body {
     padding-top: 10rem;
     background: linear-gradient(
             to bottom,
-            #ffb347 0%,
-            #d98c2b 40%,
-            #a4e391 100%
+            #ff9f43 0%,
+            #beffa9 100%
     );
 }
 .about-section p {
@@ -11155,13 +11154,22 @@ body {
 }
 
 .signup-section {
-  padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+    padding: 10rem 0;
+
+    background:
+            linear-gradient(
+                    to bottom,
+                    rgba(255, 179, 71, 0.35) 0%,
+                    rgba(180, 140, 60, 0.55) 50%,
+                    rgba(79, 121, 66, 0.75) 100%
+            ),
+            url("../assets/img/背景2.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .signup-section .form-signup input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
@@ -11213,4 +11221,8 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.project-card {
+    background-color: #e1905b; /* 森林綠 */
 }
